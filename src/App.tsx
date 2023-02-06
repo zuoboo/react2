@@ -36,6 +36,14 @@ const thershold = 5;
 
 const list = ['Patty', 'Rolley', 'Bobby'];
 
+const elems = (
+  <>
+    <div>foo</div>
+    <div>bar</div>
+    <div>baz</div>
+  </>
+);
+
   return (
     <div className='App'>
       <header className='App-header'>
@@ -61,6 +69,14 @@ const list = ['Patty', 'Rolley', 'Bobby'];
           <li>Hello, {name}!</li>
         ))}
       </ul>
+        {
+          // インラインコメント
+        }
+        {/*
+          複数行に
+          渡るコメント
+        */}
+        {elems}
     </div>
   );
 };
